@@ -1,0 +1,11 @@
+.DS_Store
+.env
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+dist/
+build/
+coverage/
+.nyc_output/
+tmp/

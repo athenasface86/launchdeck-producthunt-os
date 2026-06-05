@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LaunchDeck Product Hunt OS</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">LaunchDeck OS</p>
+          <h1>LaunchDeck Product Hunt OS</h1>
+        </div>
+        <form id="quick-add" class="quick-add">
+          <input name="name" placeholder="New launch name" autocomplete="off" required>
+          <input name="tagline" placeholder="Tagline" autocomplete="off" required>
+          <button type="submit">Add launch</button>
+        </form>
+      </header>
+
+      <section class="metric-grid" id="metric-grid" aria-label="Portfolio metrics"></section>
+
+      <section class="workspace">
+        <aside class="launch-list">
+          <div class="section-heading">
+            <h2>Launches</h2>
+            <span id="launch-count">0</span>
+          </div>
+          <div id="launch-list"></div>
+        </aside>
+
+        <section class="detail-board" id="detail-board" aria-live="polite"></section>
+
+        <aside class="brief-panel">
+          <div class="section-heading">
+            <h2>AI brief</h2>
+            <span id="brief-source">ready</span>
+          </div>
+          <form id="brief-form">
+            <label for="idea">Product idea</label>
+            <textarea id="idea" name="idea" rows="8">A founder workspace that turns launch tasks, proof points, and early traction into a confident Product Hunt launch plan.</textarea>
+            <button type="submit">Generate brief</button>
+          </form>
+          <div id="brief-output" class="brief-output"></div>
+        </aside>
+      </section>
+
+      <section class="canvas-band" aria-label="Readiness chart">
+        <canvas id="readiness-canvas" width="1180" height="340"></canvas>
+      </section>
+    </main>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "signalstack",
+    "name": "SignalStack",
+    "tagline": "Turn customer signals into a launch-ready narrative.",
+    "audience": "solo founders and small product teams",
+    "positioning": "A focused workspace for converting feedback, testimonials, and use cases into launch messaging.",
+    "launch_date": "2026-07-14",
+    "status": "building",
+    "channels": ["Product Hunt", "founder newsletter", "maker communities"],
+    "assets": {
+      "demo": true,
+      "screenshots": true,
+      "founder_video": false,
+      "press_kit": true
+    },
+    "metrics": {
+      "waitlist": 812,
+      "beta_users": 96,
+      "activation_rate": 0.42,
+      "retention_rate": 0.31
+    },
+    "risks": [
+      "Founder video is not ready",
+      "Launch story may sound too broad"
+    ],
+    "tasks": [
+      {
+        "id": "task-story",
+        "title": "Lock the launch story",
+        "owner": "founder",
+        "status": "done",
+        "due": "2026-06-20"
+      },
+      {
+        "id": "task-video",
+        "title": "Record a 60 second walkthrough",
+        "owner": "design",
+        "status": "doing",
+        "due": "2026-06-28"
+      },
+      {
+        "id": "task-hunter",
+        "title": "Confirm launch partner",
+        "owner": "growth",
+        "status": "todo",
+        "due": "2026-07-02"
+      }
+    ]
+  },
+  {
+    "id": "clipforge",
+    "name": "ClipForge",
+    "tagline": "Create product demo clips from raw screen recordings.",
+    "audience": "marketing teams at developer-tool startups",
+    "positioning": "A fast editing assistant for turning messy screen recordings into clean launch clips.",
+    "launch_date": "2026-08-03",
+    "status": "planning",
+    "channels": ["Product Hunt", "LinkedIn", "YouTube Shorts"],
+    "assets": {
+      "demo": true,
+      "screenshots": false,
+      "founder_video": false,
+      "press_kit": false
+    },
+    "metrics": {
+      "waitlist": 340,
+      "beta_users": 41,
+      "activation_rate": 0.36,
+      "retention_rate": 0.22
+    },
+    "risks": [
+      "Creative quality needs clearer examples",
+      "Waitlist is below target"
+    ],
+    "tasks": [
+      {
+        "id": "task-gallery",
+        "title": "Publish clip gallery",
+        "owner": "marketing",
+        "status": "todo",
+        "due": "2026-07-12"
+      },
+      {
+        "id": "task-copy",
+        "title": "Rewrite hero copy around launch clips",
+        "owner": "founder",
+        "status": "doing",
+        "due": "2026-07-08"
+      }
+    ]
+  }
+]
